@@ -13,7 +13,7 @@ window.addEventListener("load", function(){
                 <ul>
                 <li>Hours in space: ${json[i].hoursInSpace}</li>
                 <li>Active: ${json[i].active}</li>
-                <li>Skills: Physician, Chemical Engineer</li>
+                <li>Skills: ${json[i].skills}</li>
                 </ul>
             </div>
             <img class="avatar" src="${json[i].picture}">
@@ -21,12 +21,3 @@ window.addEventListener("load", function(){
       });
     });
   });
-
-// const url1 = "https://handlers.education.launchcode.org/static/astronauts.json"
-// fetch url1.then(function (response){
-//     const astronauts = documents.getElementById("container");
-//     let index = 0;
-//     destination.addEventListener("click", function(){
-//     for(i = 0; i<json.length; i++){
-//     }
-// }
